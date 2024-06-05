@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F6FAFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.grey-font {
+    color: #63707D;
+}
+
+.zero-font{
+    color: rgba(99, 112, 125, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.font-green{
+    color: rgba(39, 174, 96, 1);
+    ;
+}
+
+.btn {
+    color: #0066FF;
+    background-color: rgba(0,102,255,0.08);;
+    border : 1px solid rgba(0,102,255,0.08);
+    font-size: 12px;
+    height: 32px;
+    padding: 9px 16px;
+    border-radius: 8px;
+}
+
+.main-body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    height: 550px;
+    width: 525px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 32px;
+    color: #141A21;
+    box-shadow: 0 8px 24px -12px rgba(180,191,208,68%);
+    /* border: 1px solid black; */
+}
+
+.main-container .header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.main-container .balance-detail-container{
+    margin-top: 32px;
+}
+
+/* first line of content for balance numerics */
+.main-container .balance-detail-container .balance-numeric-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+}
+
+.main-container .balance-detail-container .balance-numeric {
+    text-align:right;
+}
+
+.main-container .balance-detail-container .balance-function-container{
+    margin-top: 12px;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #E8EFFB;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.main-container .balance-function-container .currency-name{
+    /* padding: top right bottom left */
+    padding: 9px 18px;
+    display: inline-block;
+    background-color: #EFF4FC;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.main-container .balance-function-container .currency-number-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.main-container .balance-function-container .currency-name {
+    display: flex;
+    align-items: center;
+    gap: 16px
+}
+
+ul{
+    list-style: none;
+}
+
+ul.details {
+    padding: 16px;
+    margin-top: 16px;
+    background-color: #FAFCFE;
+}
+
+ul.details li{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+ul.details li:first-child {
+    margin-top:0;
+}
+
+.primary-btn{
+    color: white;
+    background-color: #0066FF;
+    border-radius: 1px;
+    width: 100%;
+    padding: 18px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 8px;
+    opacity: 50%;
+    border: 1px solid #0066FF;
+}
